@@ -16,3 +16,19 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+
+private slots:
+    void on_suma_clicked();
+
+    void on_resta_clicked();
+
+    void on_multi_clicked();
+
+    void on_division_clicked();
+
+    void on_salir_clicked();
+
+private:
+    Ui::MainWindow *ui;
+};
+#endif // MAINWINDOW_H
